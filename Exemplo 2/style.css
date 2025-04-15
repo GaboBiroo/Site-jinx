@@ -1,0 +1,145 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, #1b0044, #9100a1);
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  /* Logo */
+  .header {
+    padding: 20px 40px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #ccc;
+    letter-spacing: 2px;
+  }
+  
+  .logo span {
+    display: block;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  /* Layout principal */
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  /* Lado esquerdo */
+  .left-section {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .trailer-btn {
+    background-color: #ff2d94;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom: 15px;
+  }
+  
+  .trailer-btn:hover {
+    background-color: #e60073;
+  }
+  
+  .netflix {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+  }
+  
+  .netflix span {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .thumbnail p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Lado direito */
+  .right-section {
+    flex: 1;
+    max-width: 55%;
+    position: relative;
+  }
+  
+  .jinx-art {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .jinx-art img {
+    width: 100%;
+    max-width: 300px;
+    filter: drop-shadow(0 0 10px #ff00ff);
+  }
+  
+  .jinx-quote {
+    font-style: italic;
+    color: #ff66c4;
+    margin-top: 10px;
+    font-size: 1rem;
+    max-width: 300px;
+  }
+  
+  .character-info {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  .character-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .character-info p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .caitlyn-img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+    display: block;
+  }
+  
